@@ -9,5 +9,5 @@ class User < ActiveRecord::Base
 
 
  has_secure_password #has_secure_password 方法本身会验证存在性，但是可惜，只会验证有没有密码，因此用户可以创建 “ ”（6 个空格）这样的无效密码
- validates :password, presence: true, length: { minimum: 6 }
+ validates :password, presence: true, length: { minimum: 6 },allow_nil:true
 end
