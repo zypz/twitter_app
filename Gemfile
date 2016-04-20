@@ -1,14 +1,22 @@
 source 'https://rubygems.org'
 
+gem 'rails', '4.2.5.2'
+
+gem 'carrierwave',             '0.10.0'
+gem 'mini_magick',             '3.8.0'
+gem 'fog',                     '1.36.0'
+
 gem 'will_paginate',           '3.0.7'
 gem 'bootstrap-will_paginate', '0.0.10'
 
 gem 'faker',                '1.4.2'
 
 gem 'bootstrap-sass',       '3.2.0.0'
-# Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.2.5.2'
+
 gem 'bcrypt',               '3.1.7'
+# Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
+
+
 # Use sqlite3 as the database for Active Record
 #gem 'sqlite3'
 # Use SCSS for stylesheets
